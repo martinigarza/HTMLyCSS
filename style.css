@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    background-color: whitesmoke;
+}
 .nav {
     margin-top: 10px;
     padding-left: 0;
@@ -20,7 +23,7 @@
     display: inline-block;
 }
 .nav a {
-    color: black;
+    color: rgb(0, 0, 0);
     padding: 5px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -30,55 +33,26 @@
     font-size: 18px;
     display: inline-block;
 }
+.main {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: space-evenly
+}
 .Titulo {
-    display: inline-block;
+    align-items: center;
     width: 100%;
-    background-color: beige;
-    text-align: center;
+    background-color: whitesmoke;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 15px;
-} 
-.subtitulo {
-    display: inline-block;
-    width: 100%;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 70px;
-    background-color: white
-} 
-section p {
-    display: inline-block;
-    width: 100%;
-    height: 400px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: aqua;
-    justify-content: center;
+    margin-top: 20px;
     text-align: center;
 } 
-.casilla1 {
-    width: 200px;
-    height: 60px;
-    background-color: red;
-    padding: 20px;
-    text-align: center;
-    border-color: black;
-    border-radius: 5px;
-    position: relative;
-    margin: auto;
-    top: 25px;
-    
-}
 
-.casilla2 {
-    width: 300px;
-    height: 300px;
-    background-color: grey;
-    border-radius: 20px;
-    margin: auto;
-    text-align: justify;
+.comillas {
+    width: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: whitesmoke;
     
-}
-.casilla2 p {
-    position: relative;
-    top: 30%;
-}
+    
+} 
